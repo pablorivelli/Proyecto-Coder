@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
+    <link rel="stylesheet" href="../styles.css" />
+    <title>DGDIYA</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="../index.html"><img class="logo" src="../media/bada_black.png"
+                        alt="logo de buenos aires" /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="nosotros.html">¿Quíenes Somos?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="programas.html">Programas</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Organizaciones
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item disabled" href="#">Convenios</a></li>
+                                <li><a class="dropdown-item disabled" href="#">Pagos</a></li>
+                                <li>
+                                    <a class="dropdown-item" href="informacion.html">Información </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="titulo-contacto">
+        <h1>Ponete en contacto con la Dirección</h1>
+        <h2>A través de cualquiera de nuestros medios</h2>
+        <div class="emoticones">
+            <img src="../media/navegador.png" alt="icono red social">
+            <img src="../media/mapa.png" alt="icono red social">
+            <img src="../media/telefono-movil.png" alt="icono red social">
+            <img src="../media/email.png" alt="icono red social">
+        </div>
+    </div>
+
+    <main class="main-contacto">
+
+        <div class="banner-contacto">
+        </div>
+        <div class="formulario-bs">
+            <div>
+                <h3>Dejanos tus datos</h3>
+            </div>
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">Nombre y Apellido</span>
+                <input type="text" class="form-control" placeholder="Tu Nombre" aria-label="Username"
+                    aria-describedby="basic-addon1">
+            </div>
+
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Tu Email" aria-label="Recipient's username"
+                    aria-describedby="basic-addon2">
+                <span class="input-group-text" id="basic-addon2">Correo</span>
+            </div>
+
+            <div class="input-group mb-3">
+                <span class="input-group-text" id="basic-addon1">Teléfono</span>
+                <input type="text" class="form-control" placeholder="Tu Teléfono" aria-label="Username"
+                    aria-describedby="basic-addon1">
+            </div>
+
+            <select class="form-select" aria-label="Default select example">
+                <option selected>¿Qué Programa te interesa?</option>
+                <option value="1">Programa Adolescencia</option>
+                <option value="2">Programa CPI</option>
+                <option value="3">Programa Juegotecas</option>
+                <option value="4">Programa Cedi</option>
+                <option value="5">Programa Lideres Recreativos</option>
+                <option value="6">Programa Recreación Ambiental</option>
+            </select>
+
+            <div class="input-group">
+                <span class="input-group-text">Mensaje</span>
+                <textarea class="form-control" placeholder="Dejanos un mensaje" With textarea></textarea>
+            </div>
+            <button type="button" class="btn">Enviar</button>
+        </div>
+
+        <div class="ubicacion">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3281.3093464562126!2d-58.49623892344095!3d-34.67214126111643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc93c4d7b93fb%3A0x8885badb50a6215!2sAv.%20Piedra%20Buena%203280%2C%20C1439GVO%20C1439GVO%2C%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1686595102239!5m2!1ses-419!2sar"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <div class="direccion">
+            <img src="../media/mapa.svg" alt="icono">
+            <h3>Av. Piedra Buena 3280 - 3er Piso - Ciudad de Buenos Aires
+                <br>Teléfono: 5030-9740, interno 1150 <br>
+                Mail: rcandiano@buenosaires.gob.ar
+            </h3>
+        </div>
+
+    </main>
+
+    <body>
+
+        <footer class="footer">
+            <div class="logo-footer">
+                <a href="#"><img src="../media/logoba.jpg" alt="logo buenos aires" /></a>
+            </div>
+
+            <div class="redes-sociales">
+                <a href="#"><img src="../media/facebook.png" alt="icono red social" /></a>
+                <a href="#"><img src="../media/instagram.png" alt="icono red social" /></a>
+                <a href="#"><img src="../media/twitter.png" alt="icono red social" /></a>
+                <a href="#"><img src="../media/gmail.png" alt="icono red social" /></a>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+            crossorigin="anonymous"></script>
+    </body>
+
+</html>
