@@ -61,10 +61,10 @@ a {
     margin: 0 auto;
     padding: 0;
   }
- .show{
-  background-color:#f7f5f2;
-  border: none;
- }
+  .show {
+    background-color: #f7f5f2;
+    border: none;
+  }
 
   .logo {
     width: 200px;
@@ -84,11 +84,10 @@ a {
   .logo {
     width: 200px;
   }
-  .show{
-    background-color:#f7f5f2;
+  .show {
+    background-color: #f7f5f2;
     border: none;
-   }
-  
+  }
 }
 
 /* FOOTER =========================================================================================== */
@@ -143,8 +142,6 @@ a {
     width: 100px;
   }
 }
-
-
 
 /* INDEX BANNER ======================================================================================== */
 
@@ -210,21 +207,18 @@ iframe {
 }
 
 .equipos h2 {
-  justify-content:flex-start;
+  justify-content: flex-start;
   text-align: start;
   font-size: 1.5rem;
   padding-bottom: 10px;
-  
 }
-  
 
-.card-text{
+.card-text {
   text-align: justify;
   margin: 3px;
-  
 }
 
-.card-body{
+.card-body {
   text-align: justify;
 }
 
@@ -261,19 +255,16 @@ iframe {
     margin: 10px;
   }
 
-  .equipos h2{
+  .equipos h2 {
     font-size: 1.3rem;
   }
-  .card-text{
+  .card-text {
     font-size: 15px;
   }
 
   .card-group {
     width: 80%;
   }
-
-
-
 
   .input-group {
     width: 300px;
@@ -472,8 +463,7 @@ iframe {
 
   .grid-programa {
     width: 90%;
-    margin:  10px auto;
-    
+    margin: 10px auto;
   }
 }
 
@@ -807,7 +797,7 @@ iframe {
   box-shadow: 5px 8px 12px black;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
-  margin: 0 auto;
+  margin: 10px auto;
 }
 
 .grid-item:hover {
@@ -818,7 +808,7 @@ iframe {
 .grid-item img {
   width: 100%;
   height: 100%;
-  opacity: 70%;
+  opacity: 60%;
 }
 
 .grid-item p {
