@@ -1,0 +1,112 @@
+
+
+/* HEADER====================================================================================== */
+
+.navbar {
+    background-color: $blanco;
+    font-size: 18px;
+    font-family: $titulos;
+    color: black;
+    height: 100px;
+    letter-spacing: 2px;
+    padding: 3rem;
+    border-bottom: 1px solid $lila;
+    z-index: 3;
+  
+    .navbar-collapse {
+      background-color: $blanco;
+  
+      .nav-item {
+        padding: 1rem;
+  
+        .nav-link:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+  
+  /* HEADER MOBILE ================================================================================ */
+  
+  @media only screen and (max-width: 480px) {
+    .navbar {
+      height: 100px;
+      margin: 0 auto;
+      padding: 0;
+  
+      .logo {
+        width: 200px;
+      }
+    }
+  }
+  
+  /* HEADER TABLET ================================================================================== */
+  
+  @media only screen and (min-width: 481px) and (max-width: 978px) {
+    .navbar {
+      margin: 0 auto;
+      padding: 0;
+  
+      .navbar-collapse {
+        background-color: $blanco;
+      }
+  
+      .logo {
+        width: 200px;
+      }
+    }
+  }
+  
+  /* FOOTER =========================================================================================== */
+  
+  .footer {
+    background-color: $blanco;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo-footer img {
+    width: 200px;
+    margin: 0 30px;
+  }
+  
+  .redes-sociales img {
+    width: 50px;
+    padding: 10px;
+    padding-top: 2px;
+    margin: 10px;
+  }
+  
+  .redes-sociales {
+    display: block;
+    justify-content: space-around;
+    margin-right: 30px;
+  }
+  
+  /* FOOTER MOBILE =====================================================================================*/
+  
+  @media only screen and (max-width: 480px) {
+    .footer {
+      display: block;
+      height: 150px;
+  
+      .logo-footer {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+  
+        img {
+          width: 100px;
+        }
+      }
+  
+      .redes-sociales {
+        display: flex;
+        justify-content: center;
+        margin: 0;
+      }
+    }
+  }
+  

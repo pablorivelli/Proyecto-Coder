@@ -5,9 +5,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous" />
-    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="../estilos.css" />
     <title>DGDIYA</title>
 </head>
 
@@ -15,8 +18,8 @@
     <header>
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-                <a class="navbar-brand" href="../index.html"><img class="logo" src="../media/bada_black.png"
-                        alt="logo de buenos aires" /></a>
+                <a class="navbar-brand animate__animated animate__pulse animate__delay-2s" href="../index.html"><img
+                        class="logo" src="../media/bada_black.png" alt="logo de buenos aires" /></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
                     aria-label="Toggle navigation">
@@ -70,7 +73,7 @@
 
         </div>
         <div class="container-grid container">
-            <div class="grid-programa adoles">
+            <div class="grid-programa adoles" data-aos="fade-up">
                 <a href="#">
                     <h3>Adolescencia</h3>
                     <p>Estimula las potencialidades y el desarrollo de la autonomía de los adolescentes a través de
@@ -78,7 +81,7 @@
                 </a>
 
             </div>
-            <div class="grid-programa jtk">
+            <div class="grid-programa jtk" data-aos="fade-up">
                 <a href="#">
                     <h3>Juegotecas Barriales</h3>
                     <p>Son espacios dedicados a actividades lúdicas creativas con el objetivo de contribuir al
@@ -87,7 +90,7 @@
                 </a>
 
             </div>
-            <div class="grid-programa cpi">
+            <div class="grid-programa cpi" data-aos="fade-up">
                 <a href="#">
                     <h3>Centros de Primera Infancia</h3>
                     <p>El Programa "Centros de Primera Infancia" posee como objetivo general garantizar el crecimiento y
@@ -97,7 +100,7 @@
                 </a>
 
             </div>
-            <div class="grid-programa cedi">
+            <div class="grid-programa cedi" data-aos="fade-up">
                 <a href="#">
                     <h3>Centros de Desarrollo Infantil</h3>
                     <p>Estimulación temprana, actividades lúdicas-educativas y acompañamiento a las familias para la
@@ -106,7 +109,7 @@
                 </a>
 
             </div>
-            <div class="grid-programa lideres">
+            <div class="grid-programa lideres" data-aos="fade-up">
                 <a href="#">
                     <h3>Lideres Recreativos</h3>
                     <p>Es una propuesta gratuita de inclusión y capacitación dirigida a adolescentes entre 16 y 18 años
@@ -115,7 +118,7 @@
                 </a>
 
             </div>
-            <div class="grid-programa recreacion">
+            <div class="grid-programa recreacion" data-aos="fade-up">
                 <a href="#">
                     <h3>Recreación Ambiental</h3>
                     <p>El programa de Recreación Ambiental tiene como finalidad desarrollar acciones para conectar a los
@@ -124,7 +127,7 @@
                 </a>
 
             </div>
-            <div class="grid-programa lazos">
+            <div class="grid-programa lazos" data-aos="fade-up">
                 <a href="#">
                     <h3>Reconstruyendo Lazos</h3>
                     <p>Brinda herramientas que el mundo del trabajo requiere, por medio de prácticas socioeducativas
@@ -134,7 +137,7 @@
                 </a>
 
             </div>
-            <div class="grid-programa turismo">
+            <div class="grid-programa turismo" data-aos="fade-up">
                 <a href="#">
                     <h3>Turismo Social</h3>
                     <p>A través de iniciativas educativas y recreativas, posibilita el acceso al turismo a niños y
@@ -160,6 +163,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
         crossorigin="anonymous"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

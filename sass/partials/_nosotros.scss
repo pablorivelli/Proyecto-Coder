@@ -1,0 +1,146 @@
+
+
+
+/* PAGE NOSOTROS ================================================================================================== */
+
+.titulos-nosotros {
+    background-color: $plateado;
+    height: fit-content;
+    text-align: center;
+    font-family: $titulos;
+    padding: 40px;
+  
+    h1 {
+      font-size: 4rem;
+      margin-bottom: 10px;
+    }
+  
+    h2 {
+      font-size: 2.5rem;
+    }
+  
+    h3 {
+      font-style: italic;
+    }
+  }
+  
+  .img-fluid {
+    width: 100%;
+    height: 600px;
+    opacity: 50%;
+  }
+  
+  .contenedor-nosotros {
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px 0;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(2, auto);
+    text-align: justify;
+    gap: 2rem;
+  
+    .nosotros-item {
+      border: 3px solid $lila;
+      padding: 20px;
+      margin: 20px auto;
+      border-radius: 22px 22px 22px 22px;
+      align-content: center;
+  
+      h4 {
+        font-family: $titulos;
+        font-size: 2rem;
+        letter-spacing: 3px;
+        text-decoration: underline;
+      }
+  
+      p {
+        font-size: 1rem;
+        padding: 10px 0;
+      }
+      .btn {
+        background-color: $lila;
+        border: none;
+        color: black;
+        margin: 20px;
+        font-size: 20px;
+        padding: 10px 80px;
+      }
+  
+      .btn:hover {
+        background-color: $rosa;
+        font-size: 22px;
+      }
+    }
+  
+    .objetivo {
+      border: 3px solid $rosa;
+  
+      p {
+        font-size: 1.2rem;
+      }
+    }
+  
+    .responsabilidades {
+      grid-column: 1/3;
+    }
+  }
+  
+  /* NOSOTROS MOBILE ==================================================================== */
+  
+  @media only screen and (max-width: 480px) {
+    .titulos-nosotros {
+      padding: 20px;
+      h1 {
+        font-size: 1.8rem;
+      }
+      h2 {
+        font-size: 1.4rem;
+      }
+      h3 {
+        font-size: 1rem;
+      }
+    }
+  
+    .img-fluid {
+      height: 250px;
+    }
+  
+    .contenedor-nosotros {
+      display: block;
+      width: 90%;
+      .nosotros-item h4 {
+        font-size: 1.5rem;
+      }
+    }
+  }
+  
+  /* NOSOTROS TABLET ==================================================================== */
+  
+  @media only screen and (min-width: 481px) and (max-width: 978px) {
+    .titulos-nosotros {
+      padding: 20px;
+      h1 {
+        font-size: 3em;
+      }
+      h2 {
+        font-size: 2rem;
+      }
+      h3 {
+        font-size: 1rem;
+      }
+    }
+  
+    .img-fluid {
+      height: 250px;
+    }
+  
+    .contenedor-nosotros {
+      display: block;
+      width: 90%;
+      .nosotros-item h4 {
+        font-size: 1.5rem;
+      }
+    }
+  }
+  

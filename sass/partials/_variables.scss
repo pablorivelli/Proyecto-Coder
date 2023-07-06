@@ -1,0 +1,26 @@
+
+/* VARIABLES PALETA DE COLORES */
+
+$blanco:#f7f5f2;
+$plateado:#dfdfde;
+$lila: #8d8daa;
+$rosa: #f56d91;
+
+/*VARIABLES FONTS */
+
+$titulos: "Bree Serif", serif;
+$parrafos: "Overpass", sans-serif;
+
+/* GLOBALES ================================================================================== */
+
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Overpass&display=swap");
+
+body {
+  font-family: "Overpass", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}

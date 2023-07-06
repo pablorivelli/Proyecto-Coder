@@ -1,0 +1,175 @@
+
+
+/* INDEX BANNER ======================================================================================== */
+
+.banner {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    max-height: 700px;
+    opacity: 80%;
+  }
+  
+  /* INDEX BIENVENIDA ==================================================================================== */
+  
+  .bienvenida {
+    display: flex;
+    background-color: $plateado;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+  
+    .titulo-principal {
+      text-align: center;
+      justify-content: center;
+  
+      .btn {
+        background-color: $lila;
+        border: none;
+        color: black;
+        margin: 20px;
+        font-size: 20px;
+        padding: 10px 80px;
+      }
+  
+      .btn:hover {
+        background-color: $rosa;
+        font-size: 22px;
+      }
+    }
+  
+    .video-ministerio {
+      padding: 60px;
+  
+      iframe {
+        border-radius: 29px 29px 29px 29px;
+      }
+    }
+  }
+  
+  /* INDEX EQUIPOS DE TRABAJO ================================================================================ */
+  
+  .equipos {
+    padding: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin: 30px;
+  
+    .card-group {
+      width: 80%;
+      margin: 0 auto;
+      font-family: $parrafos;
+  
+      .card-body {
+        text-align: justify;
+  
+        h2 {
+          justify-content: flex-start;
+          text-align: start;
+          font-size: 1.5rem;
+          padding-bottom: 10px;
+        }
+  
+        .card-text {
+          text-align: justify;
+          margin: 3px;
+        }
+      }
+    }
+  }
+  
+  /* INDEX MOBILE  ============================================================================================*/
+  
+  @media only screen and (max-width: 480px) {
+    .banner {
+      height: fit-content;
+      z-index: -3;
+    }
+  
+    .bienvenida {
+      display: block;
+      padding: 20px;
+  
+      .btn {
+        margin: 5px auto;
+        width: 75%;
+        height: fit-content;
+        padding: 0;
+      }
+  
+      .video-ministerio {
+        padding: 0;
+  
+        iframe {
+          width: 100%;
+          padding: 10px;
+        }
+      }
+    }
+  
+    .equipos {
+      padding: 10px;
+      flex-direction: row-reverse;
+      align-items: center;
+      margin: 10px;
+  
+      .card-group {
+        width: 80%;
+  
+        h2 {
+          font-size: 1.3rem;
+        }
+  
+        .card-text {
+          font-size: 15px;
+        }
+      }
+    }
+  }
+  
+  /* INDEX TABLET  ===============================================================================================*/
+  
+  @media only screen and (min-width: 481px) and (max-width: 978px) {
+    .banner {
+      height: fit-content;
+      z-index: -3;
+    }
+  
+    .bienvenida {
+      display: block;
+      padding: 20px;
+  
+      .btn {
+        margin: 5px auto;
+        width: 50%;
+        height: fit-content;
+        padding: 0;
+        margin: 10px;
+      }
+  
+      .video-ministerio {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        margin: 20px;
+  
+        iframe {
+          width: 100%;
+          padding: 10px;
+        }
+      }
+    }
+  
+    .equipos {
+      padding: 10px;
+      margin: 10px;
+  
+      .card-group {
+        width: 90%;
+        display: block;
+        padding: 10px;
+      }
+    }
+  }
+  

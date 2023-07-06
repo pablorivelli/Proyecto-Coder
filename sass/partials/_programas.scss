@@ -1,0 +1,182 @@
+
+
+/* PAGE PROGRAMAS ============================================================================================= */
+
+.programas {
+    background-color: $blanco;
+    border-bottom: 1px solid $lila;
+  
+    .titulo-programas {
+      background-color: $plateado;
+      height: fit-content;
+      padding-bottom: 30px;
+  
+      h1 {
+        padding-top: 30px;
+        text-align: center;
+        height: fit-content;
+        font-family: $titulos;
+        font-size: 3rem;
+        padding-bottom: 20px;
+        letter-spacing: 2px;
+      }
+  
+      h2 {
+        margin: 0 auto;
+        text-align: center;
+        width: 50%;
+        font-size: 30px;
+      }
+  
+      .emoticones {
+        display: flex;
+        justify-content: center;
+  
+        img {
+          width: 70px;
+          padding: 5px;
+          margin: 15px;
+        }
+      }
+    }
+  
+    .container-grid {
+      display: grid;
+      grid-template-columns: 50% 50%;
+      grid-template-rows: repeat(6, auto);
+      gap: 20px;
+      justify-items: center;
+      margin-top: 40px;
+      padding-bottom: 40px;
+  
+      .grid-programa {
+        border: 3px solid $lila;
+        border-radius: 22px 22px 22px 22px;
+        padding: 20px;
+        width: 70%;
+        background-color: $blanco;
+  
+        h3 {
+          font-family: $titulos;
+          font-size: 30px;
+        }
+      }
+  
+      .adoles {
+        grid-column: 1/3;
+        grid-row: 1/2;
+      }
+  
+      .jtk {
+        grid-column: 1/2;
+        grid-row: 2/3;
+        justify-self: end;
+      }
+  
+      .cedi {
+        grid-column: 2/3;
+        grid-row: 2/3;
+        justify-self: start;
+      }
+  
+      .cpi {
+        grid-column: 1/3;
+        grid-row: 3/4;
+      }
+  
+      .lideres {
+        grid-column: 1/2;
+        grid-row: 4/5;
+        justify-self: end;
+      }
+  
+      .recreacion {
+        grid-column: 2/3;
+        grid-row: 4/5;
+        justify-self: start;
+      }
+  
+      .lazos {
+        grid-column: 1/2;
+        grid-row: 5/7;
+        justify-self: end;
+        height: fit-content;
+      }
+  
+      .turismo {
+        grid-column: 2/3;
+        grid-row: 5/7;
+        justify-self: start;
+      }
+  
+      .grid-programa:hover {
+        background-color: $lila;
+      }
+  
+      .grid-programa h3:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+  
+  /* PROGRAMAS MOBILE ===================================================================================*/
+  
+  @media only screen and (max-width: 480px) {
+    .programas {
+      .titulo-programas {
+        h1 {
+          font-size: 2rem;
+          padding: 4px;
+        }
+  
+        h2 {
+          font-size: 1.3rem;
+        }
+  
+        .emoticones img {
+          width: 50px;
+        }
+      }
+  
+      .container-grid {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+  
+        .grid-programa {
+          width: 90%;
+          margin: 10px auto;
+        }
+      }
+    }
+  }
+  
+  /* PROGRAMAS TABLET =======================================================================================*/
+  
+  @media only screen and (min-width: 481px) and (max-width: 978px) {
+    .programas {
+      .titulo-programas {
+        h1 {
+          font-size: 2.5rem;
+        }
+  
+        h2 {
+          font-size: 1.5rem;
+        }
+      }
+  
+      .container-grid {
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+  
+        .grid-programa {
+          width: 100%;
+          margin: 10px;
+        }
+      }
+    }
+  }
+  
