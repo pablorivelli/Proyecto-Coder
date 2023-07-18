@@ -8,11 +8,11 @@ El Proyecto es un sitio web, con 5 secciones. Utilizando HTML, CSS, SASS.
 
 Objetivos:
 
-Realizar la estructura completa del sitio web.
-Efectuar el estilo final de la web.
-Aplicar técnicas de SEO.
-Implementar todas las técnicas utilizadas vistas, como SASS, Grids, Flexbox, etc. 
-Disponibilizar el proyecto al público a través de un servidor.
+Realizar la estructura completa del sitio web. <br>
+Efectuar el estilo final de la web.<br>
+Aplicar técnicas de SEO.<br>
+Implementar todas las técnicas utilizadas vistas, como SASS, Grids, Flexbox, etc. <br>
+Disponibilizar el proyecto al público a través de un servidor.<br>
 
 ![image](https://github.com/pablorivelli/Proyecto-Coder/assets/125373961/111a9718-0e27-4782-a5bc-378d12f31275)
 
