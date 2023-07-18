@@ -14,7 +14,7 @@ Aplicar técnicas de SEO.<br>
 Implementar todas las técnicas utilizadas vistas, como SASS, Grids, Flexbox, etc. <br>
 Disponibilizar el proyecto al público a través de un servidor.<br>
 
-![image](https://github.com/pablorivelli/Proyecto-Coder/assets/125373961/111a9718-0e27-4782-a5bc-378d12f31275)
+![image](https://github.com/pablorivelli/Proyecto-Coder/assets/125373961/3213b132-f9a5-4c7b-b66c-1e03d3bc81b7)
 
 ![image](https://github.com/pablorivelli/Proyecto-Coder/assets/125373961/f7ae3d12-9b8d-45d8-be5d-131f37131935)
 
